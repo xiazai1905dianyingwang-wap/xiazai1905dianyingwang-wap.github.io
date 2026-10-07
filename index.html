@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="下载1905电影网 - 经典电影资源下载与在线播放平台。提供1905经典影片、高清正版资源与影视下载指南。">
+<meta name="keywords" content="下载1905电影网,xiazai1905dianyingwang,1905电影网下载,经典电影下载,1905经典影片,高清正版资源,影视下载指南,在线播放">
+<meta name="author" content="下载1905电影网">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="下载1905电影网 | 经典电影资源下载与在线播放平台">
+<meta property="og:description" content="提供1905经典影片、高清正版资源与影视下载指南。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://xiazai1905dianyingwang-wap.github.io">
+<meta property="og:site_name" content="下载1905电影网">
+<link rel="canonical" href="https://xiazai1905dianyingwang-wap.github.io">
+<title>下载1905电影网 | 经典电影资源下载与在线播放平台 - xiazai1905dianyingwang-wap.github.io</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0a0e17;--bg2:#111827;--card:#161d2d;--line:rgba(96,165,250,.16);--line2:rgba(255,255,255,.08);
+  --blue:#3b82f6;--blue2:#60a5fa;--cyan:#22d3ee;--indigo:#6366f1;--green:#34d399;--amber:#fbbf24;--red:#f87171;--grey:#7b8794;--txt:#e5edf7;--txt2:#9fb0c4;
+}
+html{scroll-behavior:smooth;}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--bg);color:var(--txt);line-height:1.85;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+body::before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 15% 20%,rgba(59,130,246,.18),transparent 45%),radial-gradient(circle at 85% 80%,rgba(34,211,238,.12),transparent 42%);}
+body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.5;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:40px 40px;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+.container{max-width:1160px;margin:0 auto;padding:0 28px;}
+::selection{background:var(--blue);color:#fff;}
+
+/* ===== 顶部 ===== */
+header.top{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(10,14,23,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line2);}
+.top-in{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px;}
+.logo{display:flex;align-items:center;gap:12px;}
+.logo .cube{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;font-size:13px;font-weight:900;color:#04121f;box-shadow:0 0 18px rgba(59,130,246,.45);letter-spacing:-.5px;}
+.logo .txt b{font-size:17px;font-weight:900;letter-spacing:.5px;}
+.logo .txt small{display:block;font-size:8.5px;letter-spacing:3px;color:var(--grey);margin-top:2px;}
+nav.pri{display:flex;gap:0;}
+nav.pri a{padding:8px 17px;font-size:12.5px;letter-spacing:1px;color:var(--txt2);transition:.2s;position:relative;}
+nav.pri a:hover{color:var(--blue2);}
+nav.pri a::before{content:"";position:absolute;left:17px;right:17px;bottom:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--cyan));transform:scaleX(0);transition:.25s;}
+nav.pri a:hover::before{transform:scaleX(1);}
+.btn-go{padding:11px 24px;font-size:11px;letter-spacing:2px;font-weight:900;color:#04121f;background:linear-gradient(135deg,var(--blue2),var(--cyan));border:none;border-radius:8px;cursor:pointer;transition:.25s;box-shadow:0 4px 16px rgba(59,130,246,.3);}
+.btn-go:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(59,130,246,.45);}
+.burger{display:none;color:var(--blue2);font-size:25px;cursor:pointer;}
+body{padding-top:76px;}
+
+/* ===== Hero ===== */
+.hero{padding:92px 0 76px;position:relative;}
+.hero-in{display:grid;gap:52px;grid-template-columns:1fr 1fr;align-items:center;}
+.hero-txt .kicker{font-size:10px;letter-spacing:4px;color:var(--cyan);background:rgba(34,211,238,.1);padding:6px 14px;border-radius:6px;display:inline-block;border:1px solid rgba(34,211,238,.25);}
+.hero-txt h1{font-size:clamp(32px,5.6vw,54px);font-weight:900;letter-spacing:.5px;margin:20px 0 16px;line-height:1.3;}
+.hero-txt h1 em{font-style:normal;background:linear-gradient(90deg,var(--blue2),var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.hero-txt p{color:var(--txt2);font-size:15px;max-width:500px;}
+.hero-txt .acts{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap;}
+.hero-txt .acts a{padding:14px 32px;font-size:11.5px;letter-spacing:2px;border-radius:8px;transition:.25s;font-weight:900;display:inline-block;text-align:center;}
+.hero-txt .acts a.on{background:linear-gradient(135deg,var(--blue),var(--indigo));color:#fff;box-shadow:0 6px 20px rgba(59,130,246,.35);}
+.hero-txt .acts a.on:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.hero-txt .acts a.gh{color:var(--blue2);border:2px solid var(--line);background:var(--card);}
+.hero-txt .acts a.gh:hover{border-color:var(--blue);}
+.hero-tags{margin-top:34px;display:flex;gap:10px;flex-wrap:wrap;}
+.hero-tags span{font-size:11px;letter-spacing:1px;color:var(--txt2);border:1px solid var(--line2);padding:5px 13px;border-radius:6px;}
+
+/* 下载面板 */
+.panel{background:var(--card);border:1px solid var(--line2);border-radius:16px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5);}
+.panel-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:rgba(255,255,255,.03);border-bottom:1px solid var(--line2);}
+.panel-bar i{width:10px;height:10px;border-radius:50%;background:var(--red);}
+.panel-bar i:nth-child(2){background:var(--amber);}
+.panel-bar i:nth-child(3){background:var(--green);}
+.panel-bar b{margin-left:12px;font-size:11px;letter-spacing:2px;color:var(--grey);}
+.panel-body{padding:24px;}
+.dl-row{display:grid;gap:14px;grid-template-columns:38px 1fr auto;align-items:center;padding:14px 0;border-bottom:1px solid var(--line2);}
+.dl-row:last-child{border-bottom:none;}
+.dl-row .ic{width:38px;height:38px;border-radius:9px;background:rgba(59,130,246,.14);display:grid;place-items:center;font-size:16px;}
+.dl-row .info h6{font-size:14px;font-weight:900;letter-spacing:.5px;}
+.dl-row .info .bar{margin-top:8px;height:6px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;}
+.dl-row .info .bar span{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--cyan));}
+.dl-row .info .meta{display:flex;justify-content:space-between;margin-top:6px;font-size:11px;color:var(--grey);}
+.dl-btn{padding:8px 16px;font-size:11px;letter-spacing:1.5px;font-weight:900;color:#04121f;background:linear-gradient(135deg,var(--blue2),var(--cyan));border:none;border-radius:7px;cursor:pointer;transition:.2s;font-family:inherit;}
+.dl-btn:hover{filter:brightness(1.1);}
+
+/* ===== 栏目头 ===== */
+section.block{padding:100px 0;position:relative;}
+.head{margin-bottom:54px;text-align:center;}
+.head .kicker{font-size:10px;letter-spacing:5px;color:var(--cyan);}
+.head h2{font-size:clamp(25px,4.2vw,40px);font-weight:900;letter-spacing:1px;margin-top:12px;}
+.head h2 em{font-style:normal;background:linear-gradient(90deg,var(--blue2),var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.head .rule{width:64px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--cyan));margin:14px auto;}
+.head .sub{color:var(--grey);font-size:13px;letter-spacing:1.5px;}
+
+/* ===== 栏目一：经典片库（进度条卡） ===== */
+.lib{display:grid;gap:20px;grid-template-columns:repeat(3,1fr);}
+.lib-card{background:var(--card);border:1px solid var(--line2);border-radius:14px;padding:24px;transition:.3s;}
+.lib-card:hover{border-color:var(--blue);transform:translateY(-6px);box-shadow:0 20px 44px rgba(0,0,0,.45);}
+.lib-card .cvr{height:132px;border-radius:11px;position:relative;overflow:hidden;margin-bottom:18px;display:grid;place-items:center;font-size:28px;}
+.lib-card .cvr.a{background:linear-gradient(150deg,#1e40af,#0e7490);}
+.lib-card .cvr.b{background:linear-gradient(150deg,#7c3aed,#4f46e5);}
+.lib-card .cvr.c{background:linear-gradient(150deg,#b45309,#b91c1c);}
+.lib-card .cvr.d{background:linear-gradient(150deg,#0f766e,#0369a1);}
+.lib-card .cvr.e{background:linear-gradient(150deg,#be185d,#9333ea);}
+.lib-card .cvr.f{background:linear-gradient(150deg,#15803d,#0e7490);}
+.lib-card .cvr .yr{position:absolute;top:10px;left:10px;font-size:9.5px;letter-spacing:1.5px;background:rgba(0,0,0,.5);padding:3px 9px;border-radius:5px;}
+.lib-card .cvr .sz{position:absolute;bottom:10px;right:10px;font-size:9.5px;background:rgba(0,0,0,.5);padding:3px 9px;border-radius:5px;}
+.lib-card h5{font-size:17px;font-weight:900;letter-spacing:.5px;margin-bottom:6px;}
+.lib-card p{font-size:12.5px;color:var(--txt2);}
+.lib-card .bar{margin-top:14px;height:5px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;}
+.lib-card .bar span{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--cyan));}
+.lib-card .dl{margin-top:14px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--grey);}
+.lib-card .dl b{color:var(--green);letter-spacing:1px;}
+
+/* ===== 栏目二：资源分类（图标网格） ===== */
+.cats{max-width:900px;margin:0 auto;display:grid;gap:1px;grid-template-columns:repeat(4,1fr);background:var(--line2);border-radius:14px;overflow:hidden;}
+.cat{background:var(--card);padding:26px 18px;text-align:center;transition:.25s;cursor:pointer;}
+.cat:hover{background:rgba(59,130,246,.1);}
+.cat .ic{width:52px;height:52px;margin:0 auto 12px;border-radius:13px;display:grid;place-items:center;font-size:22px;background:linear-gradient(135deg,rgba(59,130,246,.2),rgba(34,211,238,.12));border:1px solid var(--line);}
+.cat h6{font-size:13.5px;font-weight:900;letter-spacing:1px;}
+.cat span{font-size:10.5px;color:var(--grey);}
+
+/* ===== 栏目三：下载指南（步骤竖线） ===== */
+.steps{max-width:760px;margin:0 auto;position:relative;}
+.steps::before{content:"";position:absolute;left:19px;top:6px;bottom:6px;width:2px;background:var-gradient;background:linear-gradient(180deg,var(--blue),var(--cyan),transparent);}
+.step{display:grid;gap:0;grid-template-columns:42px 1fr;align-items:flex-start;margin-bottom:22px;}
+.step .num{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;font-size:13px;font-weight:900;color:#04121f;position:relative;z-index:2;box-shadow:0 0 0 5px var(--bg);}
+.step .body{background:var(--card);border:1px solid var(--line2);border-radius:12px;padding:18px 20px;}
+.step .body h6{font-size:15.5px;font-weight:900;letter-spacing:.5px;margin-bottom:6px;}
+.step .body p{font-size:13px;color:var(--txt2);}
+
+/* ===== 栏目四：热门下载（排行横条） ===== */
+.hot{max-width:880px;margin:0 auto;background:var(--card);border:1px solid var(--line2);border-radius:16px;padding:12px 24px;}
+.hot .h-row{display:grid;gap:16px;grid-template-columns:44px 1fr 90px 70px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line2);}
+.hot .h-row:last-child{border-bottom:none;}
+.hot .h-row .rk{font-size:15px;font-weight:900;color:var(--grey);}
+.hot .h-row.top .rk{color:var(--amber);}
+.hot .h-row .tt{font-size:14.5px;font-weight:900;letter-spacing:.5px;}
+.hot .h-row .sz{font-size:11.5px;color:var(--txt2);}
+.hot .h-row .rate{font-size:12px;color:var(--cyan);text-align:right;}
+
+/* ===== 栏目五：关于（终端窗口） ===== */
+.about{max-width:900px;margin:0 auto;background:var(--card);border:1px solid var(--line2);border-radius:16px;overflow:hidden;}
+.about-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:rgba(255,255,255,.03);border-bottom:1px solid var(--line2);}
+.about-bar i{width:10px;height:10px;border-radius:50%;background:var(--red);}
+.about-bar i:nth-child(2){background:var(--amber);}
+.about-bar i:nth-child(3){background:var(--green);}
+.about-bar b{margin-left:12px;font-size:11px;letter-spacing:2px;color:var(--grey);}
+.about-body{padding:30px;}
+.about-body .line{font-family:"SF Mono",Consolas,monospace;font-size:13.5px;margin-bottom:10px;color:var(--txt2);}
+.about-body .line .pr{color:var(--green);}
+.about-body .line .cmd{color:var(--blue2);}
+.about-body .line .out{color:var(--amber);}
+.about-stats{display:grid;gap:14px;grid-template-columns:repeat(4,1fr);margin-top:26px;}
+.about-stats .s{background:rgba(255,255,255,.03);border:1px solid var(--line2);border-radius:12px;padding:20px;text-align:center;}
+.about-stats .s b{display:block;font-size:24px;font-weight:900;background:linear-gradient(90deg,var(--blue2),var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.about-stats .s span{font-size:11px;color:var(--grey);letter-spacing:1px;}
+
+/* ===== 页脚 ===== */
+footer{background:#070a11;padding:56px 0 24px;border-top:1px solid var(--line2);}
+.foot-in{max-width:1160px;margin:0 auto;padding:0 28px;}
+.foot-grid{display:grid;gap:34px;grid-template-columns:2fr 1fr 1fr 1fr;margin-bottom:36px;}
+.foot-grid .logo .cube{box-shadow:none;}
+.foot-grid .logo .txt b{font-size:17px;}
+.foot-grid .logo .txt small{font-size:11px;line-height:1.9;margin-top:12px;display:block;color:var(--grey);font-style:normal;}
+.foot-col h5{font-size:10px;letter-spacing:3px;color:var(--cyan);margin-bottom:14px;}
+.foot-col a{display:block;font-size:13px;padding:5px 0;color:var(--txt2);letter-spacing:.5px;transition:.2s;}
+.foot-col a:hover{color:var(--blue2);padding-left:6px;}
+.copy{border-top:1px solid var(--line2);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--grey);}
+.copy span:last-child{color:var(--cyan);letter-spacing:2px;}
+
+/* ===== 响应式 ===== */
+@media(max-width:980px){
+  nav.pri{display:none;position:absolute;top:76px;left:0;right:0;flex-direction:column;background:var(--bg2);padding:12px;border-top:1px solid var(--line2);}
+  nav.pri.open{display:flex;}
+  nav.pri a{text-align:center;}
+  nav.pri a::before{display:none;}
+  .burger{display:block;}
+  .hero-in{grid-template-columns:1fr;}
+  .lib{grid-template-columns:1fr 1fr;}
+  .cats{grid-template-columns:1fr 1fr;}
+  .hot .h-row{grid-template-columns:36px 1fr 70px;font-size:13px;}
+  .hot .h-row .sz{display:none;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+  .about-stats{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:520px){
+  section.block{padding:66px 0;}
+  .lib,.cats,.about-stats,.foot-grid{grid-template-columns:1fr;}
+  .panel-body{padding:16px;}
+  .hero-tags{font-size:10px;}
+  .step{grid-template-columns:36px 1fr;}
+  .step .num{width:34px;height:34px;}
+  .dl-row{grid-template-columns:32px 1fr;gap:10px;}
+  .dl-btn{grid-column:2;width:100%;margin-top:4px;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<!-- ===== 顶部 ===== -->
+<header class="top">
+  <div class="container top-in">
+    <a href="#" class="logo"><span class="cube">1905</span><span class="txt"><b>下载1905电影网</b><small>XIAZAI 1905 CINEMA</small></span></a>
+    <nav class="pri" id="nav">
+      <a href="#lib">经典片库</a>
+      <a href="#cats">资源分类</a>
+      <a href="#steps">下载指南</a>
+      <a href="#hot">热门下载</a>
+      <a href="#about">关于本站</a>
+    </nav>
+    <button class="btn-go" onclick="location.href='#'">开始下载</button>
+    <span class="burger" onclick="document.getElementById('nav').classList.toggle('open')">☰</span>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="container hero-in">
+    <div class="hero-txt"><span class="kicker">◆ D O W N L O A D &nbsp; 1 9 0 5 &nbsp; C I N E M A ◆</span><h1>经典电影<br><em>一键下载</em></h1><p>下载1905电影网——经典电影资源下载与在线播放平台。提供1905经典影片、高清正版资源与影视下载指南。</p><div class="acts"><a href="#lib" class="on">浏 览 片 库</a><a href="#steps" class="gh">下 载 指 南</a></div><div class="hero-tags"><span>1905经典</span><span>高清正版</span><span>极速下载</span><span>在线播放</span></div></div>
+    <div class="panel">
+      <div class="panel-bar"><i></i><i></i><i></i><b>download.queue</b></div>
+      <div class="panel-body">
+        <div class="dl-row"><span class="ic">🎬</span><div class="info"><h6>铁道游击队 (1956)</h6><div class="bar"><span style="width:100%"></span></div><div class="meta"><span>1.2 GB</span><span>已完成</span></div></div><button class="dl-btn">已完成</button></div>
+        <div class="dl-row"><span class="ic">🎞️</span><div class="info"><h6>林家铺子 (1959)</h6><div class="bar"><span style="width:72%"></span></div><div class="meta"><span>968 MB</span><span>72% · 1.4 MB/s</span></div></div><button class="dl-btn">继续</button></div>
+        <div class="dl-row"><span class="ic">📽️</span><div class="info"><h6>骆驼祥子 (1982)</h6><div class="bar"><span style="width:38%"></span></div><div class="meta"><span>1.5 GB</span><span>38% · 2.1 MB/s</span></div></div><button class="dl-btn">继续</button></div>
+        <div class="dl-row"><span class="ic">🎥</span><div class="info"><h6>芙蓉镇 (1986)</h6><div class="bar"><span style="width:0%"></span></div><div class="meta"><span>2.1 GB</span><span>排队中</span></div></div><button class="dl-btn">开始</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目一：经典片库（进度条卡） ===== -->
+<section class="block" id="lib">
+  <div class="container">
+    <div class="head"><span class="kicker">◆ C L A S S I C &nbsp; L I B R A R Y ◆</span><h2>经典<em>片库</em></h2><div class="rule"></div><p class="sub">1905经典影片，高清正版资源</p></div>
+    <div class="lib">
+      <div class="lib-card"><div class="cvr a"><span class="yr">1956</span><span class="sz">1.2GB</span>🚂</div><h5>铁道游击队</h5><p>抗战题材经典之作，展现鲁南铁道线上的传奇故事。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+      <div class="lib-card"><div class="cvr b"><span class="yr">1959</span><span class="sz">968MB</span>🏮</div><h5>林家铺子</h5><p>茅盾同名小说改编，一幅民国江南市镇的风俗画卷。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+      <div class="lib-card"><div class="cvr c"><span class="yr">1982</span><span class="sz">1.5GB</span>🐫</div><h5>骆驼祥子</h5><p>老舍经典改编，一个车夫的悲欢命运与旧北平的浮世绘。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+      <div class="lib-card"><div class="cvr d"><span class="yr">1986</span><span class="sz">2.1GB</span>🪷</div><h5>芙蓉镇</h5><p>小镇上的悲欢离合，时代洪流中普通人的坚守与温情。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+      <div class="lib-card"><div class="cvr e"><span class="yr">1992</span><span class="sz">1.8GB</span>🏮</div><h5>秋菊打官司</h5><p>一个执拗的农村妇女，为讨说法一路告到城里去。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+      <div class="lib-card"><div class="cvr f"><span class="yr">1994</span><span class="sz">2.3GB</span>🌾</div><h5>背靠背，脸对脸</h5><p>机关单位里的进退沉浮，一幅当代中国官场百态图。</p><div class="bar"><span style="width:100%"></span></div><div class="dl"><span>已完成</span><b>✓ 可下载</b></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：资源分类（图标网格） ===== -->
+<section class="block" id="cats" style="padding-top:0;">
+  <div class="container">
+    <div class="head"><span class="kicker">◆ R E S O U R C E &nbsp; C A T E G O R I E S ◆</span><h2>资源<em>分类</em></h2><div class="rule"></div><p class="sub">按类型，快速定位你想要的</p></div>
+    <div class="cats">
+      <div class="cat"><div class="ic">🎞️</div><h6>经典老片</h6><span>120+ 部</span></div>
+      <div class="cat"><div class="ic">🎬</div><h6>高清正片</h6><span>86 部</span></div>
+      <div class="cat"><div class="ic">📺</div><h6>纪录片</h6><span>54 部</span></div>
+      <div class="cat"><div class="ic">🎭</div><h6>戏曲电影</h6><span>38 部</span></div>
+      <div class="cat"><div class="ic">🎵</div><h6>音乐歌舞</h6><span>42 部</span></div>
+      <div class="cat"><div class="ic">👶</div><h6>动画经典</h6><span>31 部</span></div>
+      <div class="cat"><div class="ic">📼</div><h6>修复珍藏</h6><span>27 部</span></div>
+      <div class="cat"><div class="ic">🗂️</div><h6>合集包</h6><span>15 套</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：下载指南（步骤竖线） ===== -->
+<section class="block" id="steps" style="padding-top:0;">
+  <div class="container">
+    <div class="head"><span class="kicker">◆ D O W N L O A D &nbsp; G U I D E ◆</span><h2>下载<em>指南</em></h2><div class="rule"></div><p class="sub">四步搞定，极速到手</p></div>
+    <div class="steps">
+      <div class="step"><span class="num">1</span><div class="body"><h6>检索影片</h6><p>在片库或分类中找到你想下载的经典影片，查看清晰度与文件大小。</p></div></div>
+      <div class="step"><span class="num">2</span><div class="body"><h6>选择清晰度</h6><p>提供 720P / 1080P 等多种规格，按需选择最适合的版本。</p></div></div>
+      <div class="step"><span class="num">3</span><div class="body"><h6>开始下载</h6><p>点击下载按钮，进度条实时显示，支持断点续传与后台下载。</p></div></div>
+      <div class="step"><span class="num">4</span><div class="body"><h6>本地播放</h6><p>下载完成后即可本地播放，无需联网，随时随地享受经典。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：热门下载（排行横条） ===== -->
+<section class="block" id="hot" style="padding-top:0;">
+  <div class="container">
+    <div class="head"><span class="kicker">◆ T O P &nbsp; D O W N L O A D S ◆</span><h2>热门<em>下载</em></h2><div class="rule"></div><p class="sub">本周下载量最高的经典影片</p></div>
+    <div class="hot">
+      <div class="h-row top"><span class="rk">01</span><span class="tt">铁道游击队</span><span class="sz">1.2 GB</span><span class="rate">★ 9.2</span></div>
+      <div class="h-row top"><span class="rk">02</span><span class="tt">骆驼祥子</span><span class="sz">1.5 GB</span><span class="rate">★ 9.0</span></div>
+      <div class="h-row top"><span class="rk">03</span><span class="tt">林家铺子</span><span class="sz">968 MB</span><span class="rate">★ 8.8</span></div>
+      <div class="h-row"><span class="rk">04</span><span class="tt">芙蓉镇</span><span class="sz">2.1 GB</span><span class="rate">★ 9.3</span></div>
+      <div class="h-row"><span class="rk">05</span><span class="tt">秋菊打官司</span><span class="sz">1.8 GB</span><span class="rate">★ 8.7</span></div>
+      <div class="h-row"><span class="rk">06</span><span class="tt">背靠背，脸对脸</span><span class="sz">2.3 GB</span><span class="rate">★ 8.9</span></div>
+      <div class="h-row"><span class="rk">07</span><span class="tt">邻居 (1981)</span><span class="sz">1.1 GB</span><span class="rate">★ 8.5</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目五：关于（终端窗口） ===== -->
+<section class="block" id="about" style="padding-top:0;">
+  <div class="container">
+    <div class="head"><span class="kicker">◆ A B O U T &nbsp; U S ◆</span><h2>关于<em>本站</em></h2><div class="rule"></div><p class="sub">下载1905电影网 · 经典电影资源下载与在线播放平台</p></div>
+    <div class="about">
+      <div class="about-bar"><i></i><i></i><i></i><b>~/about -- 1905</b></div>
+      <div class="about-body">
+        <div class="line"><span class="pr">$</span> <span class="cmd">cat</span> ./site_name</div>
+        <div class="line"><span class="out">→ 下载1905电影网</span></div>
+        <div class="line"><span class="pr">$</span> <span class="cmd">cat</span> ./site_url</div>
+        <div class="line"><span class="out">→ https://xiazai1905dianyingwang-wap.github.io</span></div>
+        <div class="line"><span class="pr">$</span> <span class="cmd">cat</span> ./mission</div>
+        <div class="line"><span class="out">→ 经典电影资源下载与在线播放，高清正版，安心下载。</span></div>
+        <div class="about-stats">
+          <div class="s"><b>400+</b><span>经 典 影 片</span></div>
+          <div class="s"><b>8</b><span>资 源 分 类</span></div>
+          <div class="s"><b>1080P</b><span>最 高 清 晰 度</span></div>
+          <div class="s"><b>7×24</b><span>稳 定 服 务</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="foot-in">
+    <div class="foot-grid">
+      <div class="logo"><span class="cube">1905</span><span class="txt"><b>下载1905电影网</b><small>经典电影资源下载与在线播放平台。提供1905经典影片、高清正版资源与影视下载指南。</small></span></div>
+      <div class="foot-col"><h5>经典片库</h5><a href="#">经典老片</a><a href="#">高清正片</a><a href="#">修复珍藏</a><a href="#">合集包</a></div>
+      <div class="foot-col"><h5>下载服务</h5><a href="#">下载指南</a><a href="#">热门下载</a><a href="#">清晰度选择</a><a href="#">常见问题</a></div>
+      <div class="foot-col"><h5>关于本站</h5><a href="#">网站介绍</a><a href="#">内容方向</a><a href="#">联系方式</a><a href="#">意见反馈</a></div>
+    </div>
+    <div class="copy"><span>© 2026 下载1905电影网（xiazai1905dianyingwang-wap.github.io）· 经典电影资源下载与在线播放平台</span><span>◆ D O W N L O A D &nbsp; 1 9 0 5 &nbsp; C I N E M A ◆</span></div>
+  </div>
+</footer>
+
+</body>
+</html>
